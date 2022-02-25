@@ -1,3 +1,4 @@
+name: test
 on: 
   workflow_dispatch:
     inputs:
@@ -11,7 +12,7 @@ on:
         - prod
 
 jobs:
-  log-the-inputs:
+  log-me:
     runs-on: ubuntu-latest
     steps:
       - run: |
