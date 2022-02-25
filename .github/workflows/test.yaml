@@ -1,7 +1,7 @@
 on: 
   workflow_dispatch:
     inputs:
-      logLevel:
+      mode:
         description: 'mode'     
         required: false
         default: 'dev' 
