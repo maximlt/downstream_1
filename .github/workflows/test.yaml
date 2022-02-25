@@ -6,10 +6,6 @@ on:
         description: 'mode'     
         required: false
         default: 'dev' 
-        type: choice
-        options:
-        - dev
-        - prod
 
 jobs:
   log-me:
