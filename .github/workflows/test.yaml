@@ -15,3 +15,6 @@ jobs:
           echo "Mode: $MODE"
         env:
           MODE: ${{ github.event.inputs.mode }}
+      - name: Pause for 25 seconds
+        run: |
+          sleep 25
